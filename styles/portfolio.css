@@ -104,6 +104,10 @@ main{
     margin: 0 auto;
 }
 
+main section{
+    margin-top: 130px;
+}
+
 /* about section */
 
 .aboutme{
@@ -135,7 +139,75 @@ main{
     text-align: center;
 }
 
+/* What I do Section */
+
 #what-i-do-des{
     padding: 30px 130px;
     
 }
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.section-des{
+    text-align: center;
+
+}
+
+.svgicon{
+    width: 20%;
+}
+
+.skills{
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-info{
+    color: #757575;
+}
+
+/* A summary of my resume section */
+
+.resume-column-title{
+    color: #474747;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+
+.institute-info, .resume-description{
+    color: #757575;
+}
+
+.institute-info{
+    font-size: 19px;
+    margin-bottom: 18px;
+    margin-top: 3px;
+}
+
+.resume-degree-title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+
+.resume-container hr{
+    margin: 30px 30px;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+
